@@ -1,0 +1,5 @@
+applications :
+- name: "brainiac-bot-v1"
+  path : "dist/brainiac-bot-v1"
+  buildpack :
+  - "https://github.com/cloudfoundry/staticfile-buildpack.git"
